@@ -1,0 +1,54 @@
+--- selector.c	2005/06/21 17:54:14	1.7
++++ libwnck/selector.c	2005/07/24 01:09:36	1.8
+@@ -358,8 +358,20 @@
+ static void
+ wnck_selector_activate_window (WnckWindow *window)
+ {
++  WnckWorkspace *workspace;
++  guint32 timestamp;
++
+   /* We're in an activate callback, so gtk_get_current_time() works... */
+-  wnck_window_activate (window, gtk_get_current_event_time ());
++  timestamp = gtk_get_current_event_time ();
++
++  /* FIXME: THIS IS SICK AND WRONG AND BUGGY.  See the end of
++   * http://mail.gnome.org/archives/wm-spec-list/2005-July/msg00032.html
++   * There should only be *one* activate call.
++   */
++  workspace = wnck_window_get_workspace (window);
++  wnck_workspace_activate (workspace, timestamp);
++
++  wnck_window_activate (window, timestamp);
+ }
+ 
+ #define SELECTOR_MAX_WIDTH 50   /* maximum width in characters */
+--- tasklist.c	2005/07/20 06:17:13	1.84
++++ libwnck/tasklist.c	2005/07/24 01:09:36	1.85
+@@ -2152,8 +2152,8 @@
+       window_ws = wnck_window_get_workspace (task->window);
+       if (window_ws &&
+           active_ws != window_ws &&
+-          tasklist->priv->switch_workspace_on_unminimize)
+-        wnck_window_move_to_workspace (task->window, active_ws);
++          !tasklist->priv->switch_workspace_on_unminimize)
++        wnck_workspace_activate (window_ws, timestamp);
+ 
+       wnck_window_activate_transient (task->window, timestamp);
+     }
+@@ -2168,6 +2168,16 @@
+ 	}
+       else
+ 	{
++          WnckWorkspace *window_ws;
++          
++          /* FIXME: THIS IS SICK AND WRONG AND BUGGY.  See the end of
++           * http://mail.gnome.org/archives/wm-spec-list/2005-July/msg00032.html
++           * There should only be *one* activate call.
++           */
++          window_ws = wnck_window_get_workspace (task->window);
++          if (window_ws)
++            wnck_workspace_activate (window_ws, timestamp);
++
+           wnck_window_activate_transient (task->window, timestamp);
+         }
+     }

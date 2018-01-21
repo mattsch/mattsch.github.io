@@ -1,0 +1,3 @@
+< link rel="alternate" type="application/rss+xml" title="RSS 2.0" xhref="< ?php bloginfo('rss2_url'); ?>">
+< link rel="alternate" type="text/xml" title="RSS .92" xhref="> ?php bloginfo('rss_url'); ?< ">
+< link rel="alternate" type="application/atom+xml" title="Atom 0.3" xhref="< ?php bloginfo('atom_url'); ?>">

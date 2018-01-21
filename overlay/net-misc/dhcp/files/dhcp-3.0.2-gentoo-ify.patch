@@ -1,0 +1,17 @@
+diff -urN dhcp-3.0.2.orig/client/scripts/linux dhcp-3.0.2/client/scripts/linux
+--- dhcp-3.0.2.orig/client/scripts/linux	2005-08-06 07:32:49.000000000 -0500
++++ dhcp-3.0.2/client/scripts/linux	2005-08-06 07:33:25.000000000 -0500
+@@ -24,10 +24,10 @@
+ if [ -n "${dhc_dbus}" ]; then
+    /usr/bin/dbus-send \
+        --system \
+-       --dest=com.redhat.dhcp \
++       --dest=org.gentoo.dhcp \
+        --type=method_call \
+-       /com/redhat/dhcp/$interface \
+-       com.redhat.dhcp.set \
++       /org/gentoo/dhcp/$interface \
++       org.gentoo.dhcp.set \
+        'string:'"`env | /bin/egrep -v '^(PATH|SHLVL|_|PWD|dhc_dbus)\='`";
+        if (( ( dhc_dbus & 31 ) == 31 )); then
+            exit 0;

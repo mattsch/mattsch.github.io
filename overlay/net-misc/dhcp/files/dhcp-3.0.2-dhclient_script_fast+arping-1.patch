@@ -1,0 +1,23 @@
+diff -urN dhcp-3.0.2.orig/client/scripts/linux dhcp-3.0.2/client/scripts/linux
+--- dhcp-3.0.2.orig/client/scripts/linux	2005-07-24 15:05:59.000000000 -0500
++++ dhcp-3.0.2/client/scripts/linux	2005-07-24 15:18:56.000000000 -0500
+@@ -95,13 +95,17 @@
+   fi
+ 
+   # We need to give the kernel some time to get the interface up.
+-  sleep 1
++  # sleep 1
+ 
+   exit_with_hooks 0
+ fi
+ 
+ if [ x$reason = xARPCHECK ] || [ x$reason = xARPSEND ]; then
+-  exit_with_hooks 0
++   if [ -z "$new_ip_address" ] || [ -z "$interface" ] || /sbin/arping -q -c 2 -w 3 -D -I ${interface} ${new_ip_address}; then
++      exit_with_hooks 0
++   else
++      exit_with_hooks 1
++   fi;
+ fi
+   
+ if [ x$reason = xBOUND ] || [ x$reason = xRENEW ] || \

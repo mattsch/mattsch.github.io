@@ -1,0 +1,2 @@
+These builds for the Odroid-U2 board are stock but using a vold.fstab to
+properly mount internal storage if you're running from SD instead of EMMC.

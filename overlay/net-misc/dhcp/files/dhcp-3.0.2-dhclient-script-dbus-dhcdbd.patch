@@ -1,0 +1,30 @@
+diff -urN dhcp-3.0.2.orig/client/scripts/linux dhcp-3.0.2/client/scripts/linux
+--- dhcp-3.0.2.orig/client/scripts/linux	2005-07-24 14:07:56.000000000 -0500
++++ dhcp-3.0.2/client/scripts/linux	2005-07-24 14:14:21.000000000 -0500
+@@ -21,6 +21,26 @@
+ 
+ # 4. TIMEOUT not tested. ping has a flag I don't know, and I'm suspicious
+ # of the $1 in its args.
++if [ -n "${dhc_dbus}" ]; then
++   /usr/bin/dbus-send \
++       --system \
++       --dest=com.redhat.dhcp \
++       --type=method_call \
++       /com/redhat/dhcp/$interface \
++       com.redhat.dhcp.set \
++       'string:'"`env | /bin/egrep -v '^(PATH|SHLVL|_|PWD|dhc_dbus)\='`";
++       if (( ( dhc_dbus & 31 ) == 31 )); then
++           exit 0;
++       fi;
++fi;
++
++function save_previous() {
++  if [ -e $1 ]; then
++     /bin/mv $1 $1.predhclient
++  else
++     echo ''> $1.predhclient
++  fi
++}
+ 
+ make_resolv_conf() {
+   if [ "x$new_domain_name" != x ] && [ x"$new_domain_name_servers" != x ]; then

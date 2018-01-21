@@ -1,0 +1,43 @@
+--- dhcp-3.0.2/client/dhclient.c.dhclient_nodelay	2005-06-10 13:08:50.000000000 -0400
++++ dhcp-3.0.2/client/dhclient.c	2005-06-10 13:44:19.000000000 -0400
+@@ -104,6 +104,7 @@
+ 	int no_dhclient_db = 0;
+ 	int no_dhclient_pid = 0;
+ 	int no_dhclient_script = 0;
++	int n_ips=0;
+ 	char *s;
+ 
+ 	/* Make sure we have stdin, stdout and stderr. */
+@@ -504,7 +505,8 @@
+ 	   Not much entropy, but we're booting, so we're not likely to
+ 	   find anything better. */
+ 	seed = 0;
+-	for (ip = interfaces; ip; ip = ip -> next) {
++	n_ips=0;
++	for (ip = interfaces; ip; ip = ip -> next, ++n_ips) {
+ 		int junk;
+ 		memcpy (&junk,
+ 			&ip -> hw_address.hbuf [ip -> hw_address.hlen -
+@@ -521,10 +523,18 @@
+ 				do_release (client);
+ 			else {
+ 				client -> state = S_INIT;
+-				/* Set up a timeout to start the initialization
+-				   process. */
+-				add_timeout (cur_time + random () % 5,
+-					     state_reboot, client, 0, 0);
++				if( n_ips > 1 )
++				{
++					/* Set up a timeout to start the initialization
++					   process. */
++					add_timeout (cur_time + random () % 5,
++						     state_reboot, client, 0, 0);
++				}else
++				{
++					/* Kick off with no delay if only one interface */
++					add_timeout (cur_time, 
++						     state_reboot, client, 0, 0);
++				}
+ 			}
+ 		}
+ 	}

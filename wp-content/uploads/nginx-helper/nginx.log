@@ -1,0 +1,527 @@
+
+2014-09-16 03:57:23  | INFO | +++++++++
+2014-09-16 03:57:23  | INFO | +Log Test
+2014-09-16 03:57:23  | INFO | +++++++++
+2014-09-16 03:57:52  | INFO | * * * * *
+2014-09-16 03:57:52  | INFO | * Purged Everything!
+2014-09-16 03:57:52  | INFO | * * * * *
+2014-09-16 03:57:52  | INFO | +++++++++
+2014-09-16 03:57:52  | INFO | +Log Test
+2014-09-16 03:57:52  | INFO | +++++++++
+2014-09-16 03:57:52  | INFO | +++++++++
+2014-09-16 03:57:52  | INFO | +Log Test
+2014-09-16 03:57:52  | INFO | +++++++++
+2014-09-16 04:00:32  | INFO | * * * * *
+2014-09-16 04:00:32  | INFO | * Purged Everything!
+2014-09-16 04:00:32  | INFO | * * * * *
+2014-09-16 04:10:21  | INFO | * * * * *
+2014-09-16 04:10:21  | INFO | * Purged Everything!
+2014-09-16 04:10:21  | INFO | * * * * *
+2014-09-16 04:10:54  | INFO | +++++++++
+2014-09-16 04:10:54  | INFO | +Log Test
+2014-09-16 04:10:54  | INFO | +++++++++
+2014-09-16 04:11:45  | INFO | * * * * *
+2014-09-16 04:11:45  | INFO | * Purged Everything!
+2014-09-16 04:11:45  | INFO | * * * * *
+2014-09-16 07:22:53  | INFO | * * * * *
+2014-09-16 07:22:53  | INFO | * Blog :: excentral (1).
+2014-09-16 07:22:53  | INFO | * Post :: Playing with the Odroid-U2 (488).
+2014-09-16 07:22:53  | INFO | * Comment :: 97935.
+2014-09-16 07:22:53  | INFO | * Status Changed from  to spam
+2014-09-16 11:08:50  | INFO | * * * * *
+2014-09-16 11:08:50  | INFO | * Blog :: excentral (1).
+2014-09-16 11:08:50  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-16 11:08:50  | INFO | * Comment :: 97936.
+2014-09-16 11:08:50  | INFO | * Status Changed from  to spam
+2014-09-16 11:11:08  | INFO | * * * * *
+2014-09-16 11:11:08  | INFO | * Blog :: excentral (1).
+2014-09-16 11:11:08  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-16 11:11:08  | INFO | * Comment :: 97937.
+2014-09-16 11:11:08  | INFO | * Status Changed from  to spam
+2014-09-16 11:23:42  | INFO | * * * * *
+2014-09-16 11:23:42  | INFO | * Blog :: excentral (1).
+2014-09-16 11:23:42  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-16 11:23:42  | INFO | * Comment :: 97938.
+2014-09-16 11:23:42  | INFO | * Status Changed from  to spam
+2014-09-17 15:28:41  | INFO | * * * * *
+2014-09-17 15:28:41  | INFO | * Blog :: excentral (1).
+2014-09-17 15:28:41  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-17 15:28:41  | INFO | * Comment :: 97939.
+2014-09-17 15:28:41  | INFO | * Status Changed from  to spam
+2014-09-17 22:20:20  | INFO | * * * * *
+2014-09-17 22:20:20  | INFO | * Blog :: excentral (1).
+2014-09-17 22:20:20  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-17 22:20:20  | INFO | * Comment :: 97940.
+2014-09-17 22:20:20  | INFO | * Status Changed from  to spam
+2014-09-18 00:16:23  | INFO | * * * * *
+2014-09-18 00:16:23  | INFO | * Blog :: excentral (1).
+2014-09-18 00:16:23  | INFO | * Post :: sophists philosophy forums,psychology news,discussion &#8211; Running a Successful Open Source Project (63).
+2014-09-18 00:16:23  | INFO | * Comment :: 97941.
+2014-09-18 00:16:23  | INFO | * Status Changed from  to spam
+2014-09-18 12:35:06  | INFO | * * * * *
+2014-09-18 12:35:06  | INFO | * Blog :: excentral (1).
+2014-09-18 12:35:06  | INFO | * Post :: Package updates (259).
+2014-09-18 12:35:06  | INFO | * Comment :: 97942.
+2014-09-18 12:35:06  | INFO | * Status Changed from  to spam
+2014-09-18 12:57:21  | INFO | * * * * *
+2014-09-18 12:57:21  | INFO | * Blog :: excentral (1).
+2014-09-18 12:57:21  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-18 12:57:21  | INFO | * Comment :: 97943.
+2014-09-18 12:57:21  | INFO | * Status Changed from  to spam
+2014-09-18 13:02:12  | INFO | * * * * *
+2014-09-18 13:02:12  | INFO | * Blog :: excentral (1).
+2014-09-18 13:02:12  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-18 13:02:12  | INFO | * Comment :: 97944.
+2014-09-18 13:02:12  | INFO | * Status Changed from  to spam
+2014-09-19 01:37:46  | INFO | * * * * *
+2014-09-19 01:37:46  | INFO | * Blog :: excentral (1).
+2014-09-19 01:37:46  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-19 01:37:46  | INFO | * Comment :: 97945.
+2014-09-19 01:37:46  | INFO | * Status Changed from  to spam
+2014-09-19 04:02:36  | INFO | * * * * *
+2014-09-19 04:02:36  | INFO | * Blog :: excentral (1).
+2014-09-19 04:02:36  | INFO | * Post :: Package updates (259).
+2014-09-19 04:02:36  | INFO | * Comment :: 97946.
+2014-09-19 04:02:36  | INFO | * Status Changed from  to spam
+2014-09-19 12:53:04  | INFO | * * * * *
+2014-09-19 12:53:04  | INFO | * Blog :: excentral (1).
+2014-09-19 12:53:04  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-19 12:53:04  | INFO | * Comment :: 97947.
+2014-09-19 12:53:04  | INFO | * Status Changed from  to spam
+2014-09-19 12:53:56  | INFO | * * * * *
+2014-09-19 12:53:56  | INFO | * Blog :: excentral (1).
+2014-09-19 12:53:56  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-19 12:53:56  | INFO | * Comment :: 97948.
+2014-09-19 12:53:56  | INFO | * Status Changed from  to spam
+2014-09-19 13:13:38  | INFO | * * * * *
+2014-09-19 13:13:38  | INFO | * Blog :: excentral (1).
+2014-09-19 13:13:38  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-19 13:13:38  | INFO | * Comment :: 97949.
+2014-09-19 13:13:38  | INFO | * Status Changed from  to spam
+2014-09-25 05:24:11  | INFO | * * * * *
+2014-09-25 05:24:11  | INFO | * Blog :: excentral (1).
+2014-09-25 05:24:11  | INFO | * Post :: Package updates (259).
+2014-09-25 05:24:11  | INFO | * Comment :: 97950.
+2014-09-25 05:24:11  | INFO | * Status Changed from  to spam
+2014-09-25 09:43:30  | INFO | * * * * *
+2014-09-25 09:43:30  | INFO | * Blog :: excentral (1).
+2014-09-25 09:43:30  | INFO | * Post :: Wi-Fi 3D Printer Prep (500).
+2014-09-25 09:43:30  | INFO | * Comment :: 97951.
+2014-09-25 09:43:30  | INFO | * Status Changed from  to spam
+2014-09-25 11:29:23  | INFO | * * * * *
+2014-09-25 11:29:23  | INFO | * Blog :: excentral (1).
+2014-09-25 11:29:23  | INFO | * Post :: Wi-Fi 3D Printer Prep (500).
+2014-09-25 11:29:23  | INFO | * Comment :: 97952.
+2014-09-25 11:29:23  | INFO | * Status Changed from  to spam
+2014-09-25 19:27:39  | INFO | * * * * *
+2014-09-25 19:27:39  | INFO | * Blog :: excentral (1).
+2014-09-25 19:27:39  | INFO | * Post :: virt-install (282).
+2014-09-25 19:27:39  | INFO | * Comment :: 97953.
+2014-09-25 19:27:39  | INFO | * Status Changed from  to spam
+2014-09-25 19:39:01  | INFO | * * * * *
+2014-09-25 19:39:01  | INFO | * Blog :: excentral (1).
+2014-09-25 19:39:01  | INFO | * Post :: sophists philosophy forums,psychology news,discussion &#8211; Running a Successful Open Source Project (63).
+2014-09-25 19:39:01  | INFO | * Comment :: 97954.
+2014-09-25 19:39:01  | INFO | * Status Changed from  to spam
+2014-09-25 22:00:34  | INFO | * * * * *
+2014-09-25 22:00:34  | INFO | * Blog :: excentral (1).
+2014-09-25 22:00:34  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-25 22:00:34  | INFO | * Comment :: 97955.
+2014-09-25 22:00:34  | INFO | * Status Changed from  to spam
+2014-09-26 03:53:30  | INFO | * * * * *
+2014-09-26 03:53:30  | INFO | * Blog :: excentral (1).
+2014-09-26 03:53:30  | INFO | * Post :: Playing with the Odroid-U2 (488).
+2014-09-26 03:53:30  | INFO | * Comment :: 97956.
+2014-09-26 03:53:30  | INFO | * Status Changed from  to spam
+2014-09-26 09:31:11  | INFO | * * * * *
+2014-09-26 09:31:11  | INFO | * Blog :: excentral (1).
+2014-09-26 09:31:11  | INFO | * Post :: unmuted Blog Archive The crYpta (124).
+2014-09-26 09:31:11  | INFO | * Comment :: 97957.
+2014-09-26 09:31:11  | INFO | * Status Changed from  to spam
+2014-09-26 09:31:36  | INFO | * * * * *
+2014-09-26 09:31:36  | INFO | * Blog :: excentral (1).
+2014-09-26 09:31:36  | INFO | * Post :: unmuted Blog Archive The crYpta (124).
+2014-09-26 09:31:36  | INFO | * Comment :: 97958.
+2014-09-26 09:31:36  | INFO | * Status Changed from  to spam
+2014-09-26 11:15:45  | INFO | * * * * *
+2014-09-26 11:15:45  | INFO | * Blog :: excentral (1).
+2014-09-26 11:15:45  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-26 11:15:45  | INFO | * Comment :: 97959.
+2014-09-26 11:15:45  | INFO | * Status Changed from  to spam
+2014-09-26 15:29:05  | INFO | * * * * *
+2014-09-26 15:29:05  | INFO | * Blog :: excentral (1).
+2014-09-26 15:29:05  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-26 15:29:05  | INFO | * Comment :: 97960.
+2014-09-26 15:29:05  | INFO | * Status Changed from  to spam
+2014-09-26 23:24:02  | INFO | * * * * *
+2014-09-26 23:24:02  | INFO | * Blog :: excentral (1).
+2014-09-26 23:24:02  | INFO | * Post :: Package updates (259).
+2014-09-26 23:24:02  | INFO | * Comment :: 97961.
+2014-09-26 23:24:02  | INFO | * Status Changed from  to spam
+2014-09-27 10:00:53  | INFO | * * * * *
+2014-09-27 10:00:53  | INFO | * Blog :: excentral (1).
+2014-09-27 10:00:53  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-27 10:00:53  | INFO | * Comment :: 97962.
+2014-09-27 10:00:53  | INFO | * Status Changed from  to spam
+2014-09-28 00:58:25  | INFO | * * * * *
+2014-09-28 00:58:25  | INFO | * Blog :: excentral (1).
+2014-09-28 00:58:25  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-28 00:58:25  | INFO | * Comment :: 97963.
+2014-09-28 00:58:25  | INFO | * Status Changed from  to spam
+2014-09-28 15:53:28  | INFO | * * * * *
+2014-09-28 15:53:28  | INFO | * Blog :: excentral (1).
+2014-09-28 15:53:28  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-28 15:53:28  | INFO | * Comment :: 97964.
+2014-09-28 15:53:28  | INFO | * Status Changed from  to spam
+2014-09-29 01:23:07  | INFO | * * * * *
+2014-09-29 01:23:07  | INFO | * Blog :: excentral (1).
+2014-09-29 01:23:07  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-29 01:23:07  | INFO | * Comment :: 97965.
+2014-09-29 01:23:07  | INFO | * Status Changed from  to spam
+2014-09-29 14:57:47  | INFO | * * * * *
+2014-09-29 14:57:47  | INFO | * Blog :: excentral (1).
+2014-09-29 14:57:47  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-29 14:57:47  | INFO | * Comment :: 97966.
+2014-09-29 14:57:47  | INFO | * Status Changed from  to spam
+2014-09-29 15:13:34  | INFO | * * * * *
+2014-09-29 15:13:34  | INFO | * Blog :: excentral (1).
+2014-09-29 15:13:34  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-29 15:13:34  | INFO | * Comment :: 97967.
+2014-09-29 15:13:34  | INFO | * Status Changed from  to spam
+2014-09-29 18:56:55  | INFO | * * * * *
+2014-09-29 18:56:55  | INFO | * Blog :: excentral (1).
+2014-09-29 18:56:55  | INFO | * Post :: Playing with the Odroid-U2 (488).
+2014-09-29 18:56:55  | INFO | * Comment :: 97968.
+2014-09-29 18:56:55  | INFO | * Status Changed from  to spam
+2014-09-30 08:44:35  | INFO | * * * * *
+2014-09-30 08:44:35  | INFO | * Blog :: excentral (1).
+2014-09-30 08:44:35  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-30 08:44:35  | INFO | * Comment :: 97969.
+2014-09-30 08:44:35  | INFO | * Status Changed from  to spam
+2014-09-30 15:08:43  | INFO | * * * * *
+2014-09-30 15:08:43  | INFO | * Blog :: excentral (1).
+2014-09-30 15:08:43  | INFO | * Post :: Package updates (259).
+2014-09-30 15:08:43  | INFO | * Comment :: 97970.
+2014-09-30 15:08:43  | INFO | * Status Changed from  to spam
+2014-09-30 17:36:28  | INFO | * * * * *
+2014-09-30 17:36:28  | INFO | * Blog :: excentral (1).
+2014-09-30 17:36:28  | INFO | * Post :: Android Repo Mirroring (435).
+2014-09-30 17:36:28  | INFO | * Comment :: 97971.
+2014-09-30 17:36:28  | INFO | * Status Changed from  to spam
+2014-10-01 05:46:15  | INFO | * * * * *
+2014-10-01 05:46:15  | INFO | * Blog :: excentral (1).
+2014-10-01 05:46:15  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-01 05:46:15  | INFO | * Comment :: 97972.
+2014-10-01 05:46:15  | INFO | * Status Changed from  to spam
+2014-10-01 05:58:06  | INFO | * * * * *
+2014-10-01 05:58:06  | INFO | * Blog :: excentral (1).
+2014-10-01 05:58:06  | INFO | * Post :: Playing with the Odroid-U2 (488).
+2014-10-01 05:58:06  | INFO | * Comment :: 97973.
+2014-10-01 05:58:06  | INFO | * Status Changed from  to spam
+2014-10-02 12:57:05  | INFO | * * * * *
+2014-10-02 12:57:05  | INFO | * Blog :: excentral (1).
+2014-10-02 12:57:05  | INFO | * Post :: Playing with the Odroid-U2 (488).
+2014-10-02 12:57:05  | INFO | * Comment :: 97974.
+2014-10-02 12:57:05  | INFO | * Status Changed from  to spam
+2014-10-03 02:19:35  | INFO | * * * * *
+2014-10-03 02:19:35  | INFO | * Blog :: excentral (1).
+2014-10-03 02:19:35  | INFO | * Post :: Wi-Fi 3D Printer Prep (500).
+2014-10-03 02:19:35  | INFO | * Comment :: 97975.
+2014-10-03 02:19:35  | INFO | * Status Changed from  to spam
+2014-10-03 20:00:22  | INFO | * * * * *
+2014-10-03 20:00:22  | INFO | * Blog :: excentral (1).
+2014-10-03 20:00:22  | INFO | * Post :: Wi-Fi 3D Printer Prep (500).
+2014-10-03 20:00:22  | INFO | * Comment :: 97976.
+2014-10-03 20:00:22  | INFO | * Status Changed from  to spam
+2014-10-03 22:18:59  | INFO | * * * * *
+2014-10-03 22:18:59  | INFO | * Blog :: excentral (1).
+2014-10-03 22:18:59  | INFO | * Post :: Playing with the Odroid-U2 (488).
+2014-10-03 22:18:59  | INFO | * Comment :: 97977.
+2014-10-03 22:18:59  | INFO | * Status Changed from  to spam
+2014-10-03 23:48:31  | INFO | * * * * *
+2014-10-03 23:48:31  | INFO | * Blog :: excentral (1).
+2014-10-03 23:48:31  | INFO | * Post :: sophists philosophy forums,psychology news,discussion &#8211; Running a Successful Open Source Project (63).
+2014-10-03 23:48:31  | INFO | * Comment :: 97978.
+2014-10-03 23:48:31  | INFO | * Status Changed from  to spam
+2014-10-04 00:36:22  | INFO | * * * * *
+2014-10-04 00:36:22  | INFO | * Blog :: excentral (1).
+2014-10-04 00:36:22  | INFO | * Post :: Playing with the Odroid-U2 (488).
+2014-10-04 00:36:22  | INFO | * Comment :: 97979.
+2014-10-04 00:36:22  | INFO | * Status Changed from  to spam
+2014-10-05 02:10:26  | INFO | * * * * *
+2014-10-05 02:10:26  | INFO | * Blog :: excentral (1).
+2014-10-05 02:10:26  | INFO | * Post :: Wi-Fi 3D Printer Prep (500).
+2014-10-05 02:10:26  | INFO | * Comment :: 97980.
+2014-10-05 02:10:26  | INFO | * Status Changed from  to spam
+2014-10-05 09:19:45  | INFO | * * * * *
+2014-10-05 09:19:45  | INFO | * Blog :: excentral (1).
+2014-10-05 09:19:45  | INFO | * Post :: Adventures in CEC (535).
+2014-10-05 09:19:45  | INFO | * Comment :: 97981.
+2014-10-05 09:19:45  | INFO | * Status Changed from  to spam
+2014-10-05 10:50:05  | INFO | * * * * *
+2014-10-05 10:50:05  | INFO | * Blog :: excentral (1).
+2014-10-05 10:50:05  | INFO | * Post :: Adventures in CEC (535).
+2014-10-05 10:50:05  | INFO | * Comment :: 97982.
+2014-10-05 10:50:05  | INFO | * Status Changed from  to spam
+2014-10-05 12:42:38  | INFO | * * * * *
+2014-10-05 12:42:38  | INFO | * Blog :: excentral (1).
+2014-10-05 12:42:38  | INFO | * Post :: Adventures in CEC (535).
+2014-10-05 12:42:38  | INFO | * Comment :: 97983.
+2014-10-05 12:42:38  | INFO | * Status Changed from  to spam
+2014-10-05 21:55:48  | INFO | * * * * *
+2014-10-05 21:55:48  | INFO | * Blog :: excentral (1).
+2014-10-05 21:55:48  | INFO | * Post :: sophists philosophy forums,psychology news,discussion &#8211; Running a Successful Open Source Project (63).
+2014-10-05 21:55:48  | INFO | * Comment :: 97984.
+2014-10-05 21:55:48  | INFO | * Status Changed from  to spam
+2014-10-06 00:09:46  | INFO | * * * * *
+2014-10-06 00:09:46  | INFO | * Blog :: excentral (1).
+2014-10-06 00:09:46  | INFO | * Post :: Weekend Fun (176).
+2014-10-06 00:09:46  | INFO | * Comment :: 97985.
+2014-10-06 00:09:46  | INFO | * Status Changed from  to spam
+2014-10-06 00:19:19  | INFO | * * * * *
+2014-10-06 00:19:19  | INFO | * Blog :: excentral (1).
+2014-10-06 00:19:19  | INFO | * Post :: Weekend Fun (176).
+2014-10-06 00:19:19  | INFO | * Comment :: 97986.
+2014-10-06 00:19:19  | INFO | * Status Changed from  to spam
+2014-10-06 00:24:24  | INFO | * * * * *
+2014-10-06 00:24:24  | INFO | * Blog :: excentral (1).
+2014-10-06 00:24:24  | INFO | * Post :: Weekend Fun (176).
+2014-10-06 00:24:24  | INFO | * Comment :: 97987.
+2014-10-06 00:24:24  | INFO | * Status Changed from  to spam
+2014-10-06 01:33:14  | INFO | * * * * *
+2014-10-06 01:33:14  | INFO | * Blog :: excentral (1).
+2014-10-06 01:33:14  | INFO | * Post :: Weekend Fun (176).
+2014-10-06 01:33:14  | INFO | * Comment :: 97988.
+2014-10-06 01:33:14  | INFO | * Status Changed from  to spam
+2014-10-06 07:24:07  | INFO | * * * * *
+2014-10-06 07:24:07  | INFO | * Blog :: excentral (1).
+2014-10-06 07:24:07  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-06 07:24:07  | INFO | * Comment :: 97989.
+2014-10-06 07:24:07  | INFO | * Status Changed from  to spam
+2014-10-07 11:18:37  | INFO | * * * * *
+2014-10-07 11:18:37  | INFO | * Blog :: excentral (1).
+2014-10-07 11:18:37  | INFO | * Post :: Weekend Fun (176).
+2014-10-07 11:18:37  | INFO | * Comment :: 97990.
+2014-10-07 11:18:37  | INFO | * Status Changed from  to spam
+2014-10-07 23:27:58  | INFO | * * * * *
+2014-10-07 23:27:58  | INFO | * Blog :: excentral (1).
+2014-10-07 23:27:58  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-07 23:27:58  | INFO | * Comment :: 97991.
+2014-10-07 23:27:58  | INFO | * Status Changed from  to spam
+2014-10-08 14:45:07  | INFO | * * * * *
+2014-10-08 14:45:07  | INFO | * Blog :: excentral (1).
+2014-10-08 14:45:07  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-08 14:45:07  | INFO | * Comment :: 97992.
+2014-10-08 14:45:07  | INFO | * Status Changed from  to spam
+2014-10-08 15:38:18  | INFO | * * * * *
+2014-10-08 15:38:18  | INFO | * Blog :: excentral (1).
+2014-10-08 15:38:18  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-08 15:38:18  | INFO | * Comment :: 97993.
+2014-10-08 15:38:18  | INFO | * Status Changed from  to spam
+2014-10-08 16:25:47  | INFO | * * * * *
+2014-10-08 16:25:47  | INFO | * Blog :: excentral (1).
+2014-10-08 16:25:47  | INFO | * Post :: RAID in Linux (167).
+2014-10-08 16:25:47  | INFO | * Comment :: 97994.
+2014-10-08 16:25:47  | INFO | * Status Changed from  to spam
+2014-10-10 00:25:49  | INFO | * * * * *
+2014-10-10 00:25:49  | INFO | * Blog :: excentral (1).
+2014-10-10 00:25:49  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-10 00:25:49  | INFO | * Comment :: 97995.
+2014-10-10 00:25:49  | INFO | * Status Changed from  to spam
+2014-10-10 16:22:51  | INFO | * * * * *
+2014-10-10 16:22:51  | INFO | * Blog :: excentral (1).
+2014-10-10 16:22:51  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-10 16:22:51  | INFO | * Comment :: 97996.
+2014-10-10 16:22:51  | INFO | * Status Changed from  to spam
+2014-10-10 16:23:35  | INFO | * * * * *
+2014-10-10 16:23:35  | INFO | * Blog :: excentral (1).
+2014-10-10 16:23:35  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-10 16:23:35  | INFO | * Comment :: 97997.
+2014-10-10 16:23:35  | INFO | * Status Changed from  to spam
+2014-10-11 20:54:57  | INFO | * * * * *
+2014-10-11 20:54:57  | INFO | * Blog :: excentral (1).
+2014-10-11 20:54:57  | INFO | * Post :: sophists philosophy forums,psychology news,discussion &#8211; Running a Successful Open Source Project (63).
+2014-10-11 20:54:57  | INFO | * Comment :: 97998.
+2014-10-11 20:54:57  | INFO | * Status Changed from  to spam
+2014-10-12 05:11:24  | INFO | * * * * *
+2014-10-12 05:11:24  | INFO | * Blog :: excentral (1).
+2014-10-12 05:11:24  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-12 05:11:24  | INFO | * Comment :: 97999.
+2014-10-12 05:11:24  | INFO | * Status Changed from  to spam
+2014-10-12 07:24:48  | INFO | * * * * *
+2014-10-12 07:24:48  | INFO | * Blog :: excentral (1).
+2014-10-12 07:24:48  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-12 07:24:48  | INFO | * Comment :: 98000.
+2014-10-12 07:24:48  | INFO | * Status Changed from  to spam
+2014-10-12 12:31:49  | INFO | * * * * *
+2014-10-12 12:31:49  | INFO | * * * * *
+2014-10-12 12:31:49  | INFO | * Blog :: excentral (1).
+2014-10-12 12:31:49  | INFO | * Blog :: excentral (1).
+2014-10-12 12:31:49  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-12 12:31:49  | INFO | * Comment :: 98002.
+2014-10-12 12:31:49  | INFO | * Post :: Package updates (259).
+2014-10-12 12:31:49  | INFO | * Status Changed from  to spam
+2014-10-12 12:31:49  | INFO | * Comment :: 98001.
+2014-10-12 12:31:49  | INFO | * Status Changed from  to spam
+2014-10-13 13:07:13  | INFO | * * * * *
+2014-10-13 13:07:13  | INFO | * Blog :: excentral (1).
+2014-10-13 13:07:13  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-13 13:07:13  | INFO | * Comment :: 98003.
+2014-10-13 13:07:13  | INFO | * Status Changed from  to spam
+2014-10-13 14:25:17  | INFO | * * * * *
+2014-10-13 14:25:17  | INFO | * Blog :: excentral (1).
+2014-10-13 14:25:17  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-13 14:25:17  | INFO | * Comment :: 98004.
+2014-10-13 14:25:17  | INFO | * Status Changed from  to spam
+2014-10-14 14:18:17  | INFO | * * * * *
+2014-10-14 14:18:17  | INFO | * Blog :: excentral (1).
+2014-10-14 14:18:17  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-14 14:18:17  | INFO | * Comment :: 98005.
+2014-10-14 14:18:17  | INFO | * Status Changed from  to spam
+2014-10-14 21:16:07  | INFO | * * * * *
+2014-10-14 21:16:07  | INFO | * Blog :: excentral (1).
+2014-10-14 21:16:07  | INFO | * Post :: sophists philosophy forums,psychology news,discussion &#8211; An Open Letter To The People Who Hacked My Website (64).
+2014-10-14 21:16:07  | INFO | * Comment :: 98006.
+2014-10-14 21:16:07  | INFO | * Status Changed from  to spam
+2014-10-14 21:20:46  | INFO | * * * * *
+2014-10-14 21:20:46  | INFO | * Blog :: excentral (1).
+2014-10-14 21:20:46  | INFO | * Post :: sophists philosophy forums,psychology news,discussion &#8211; An Open Letter To The People Who Hacked My Website (64).
+2014-10-14 21:20:46  | INFO | * Comment :: 98007.
+2014-10-14 21:20:46  | INFO | * Status Changed from  to spam
+2014-10-15 13:14:12  | INFO | * * * * *
+2014-10-15 13:14:12  | INFO | * Blog :: excentral (1).
+2014-10-15 13:14:12  | INFO | * Post :: Request Tracker on RHES3 (122).
+2014-10-15 13:14:12  | INFO | * Comment :: 98008.
+2014-10-15 13:14:12  | INFO | * Status Changed from  to spam
+2014-10-15 13:29:40  | INFO | * * * * *
+2014-10-15 13:29:40  | INFO | * Blog :: excentral (1).
+2014-10-15 13:29:40  | INFO | * Post :: Request Tracker on RHES3 (122).
+2014-10-15 13:29:40  | INFO | * Comment :: 98009.
+2014-10-15 13:29:40  | INFO | * Status Changed from  to spam
+2014-10-15 16:06:40  | INFO | * * * * *
+2014-10-15 16:06:40  | INFO | * Blog :: excentral (1).
+2014-10-15 16:06:40  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-15 16:06:40  | INFO | * Comment :: 98010.
+2014-10-15 16:06:40  | INFO | * Status Changed from  to spam
+2014-10-16 02:38:54  | INFO | * * * * *
+2014-10-16 02:38:54  | INFO | * Blog :: excentral (1).
+2014-10-16 02:38:54  | INFO | * Post :: Request Tracker on RHES3 (122).
+2014-10-16 02:38:54  | INFO | * Comment :: 98011.
+2014-10-16 02:38:54  | INFO | * Status Changed from  to spam
+2014-10-16 08:54:14  | INFO | * * * * *
+2014-10-16 08:54:14  | INFO | * Blog :: excentral (1).
+2014-10-16 08:54:14  | INFO | * Post :: Request Tracker on RHES3 (122).
+2014-10-16 08:54:14  | INFO | * Comment :: 98012.
+2014-10-16 08:54:14  | INFO | * Status Changed from  to spam
+2014-10-16 09:17:07  | INFO | * * * * *
+2014-10-16 09:17:07  | INFO | * Blog :: excentral (1).
+2014-10-16 09:17:07  | INFO | * Post :: Request Tracker on RHES3 (122).
+2014-10-16 09:17:07  | INFO | * Comment :: 98013.
+2014-10-16 09:17:07  | INFO | * Status Changed from  to spam
+2014-10-16 14:32:19  | INFO | * * * * *
+2014-10-16 14:32:19  | INFO | * Blog :: excentral (1).
+2014-10-16 14:32:19  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-16 14:32:19  | INFO | * Comment :: 98014.
+2014-10-16 14:32:19  | INFO | * Status Changed from  to spam
+2014-10-16 17:14:52  | INFO | * * * * *
+2014-10-16 17:14:52  | INFO | * Blog :: excentral (1).
+2014-10-16 17:14:52  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-16 17:14:52  | INFO | * Comment :: 98015.
+2014-10-16 17:14:52  | INFO | * Status Changed from  to spam
+2014-10-17 09:36:14  | INFO | * * * * *
+2014-10-17 09:36:14  | INFO | * Blog :: excentral (1).
+2014-10-17 09:36:14  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-17 09:36:14  | INFO | * Comment :: 98016.
+2014-10-17 09:36:14  | INFO | * Status Changed from  to spam
+2014-10-17 16:25:31  | INFO | * * * * *
+2014-10-17 16:25:31  | INFO | * Blog :: excentral (1).
+2014-10-17 16:25:31  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-17 16:25:31  | INFO | * Comment :: 98017.
+2014-10-17 16:25:31  | INFO | * Status Changed from  to spam
+2014-10-17 16:25:47  | INFO | * * * * *
+2014-10-17 16:25:47  | INFO | * Blog :: excentral (1).
+2014-10-17 16:25:47  | INFO | * Post :: Package updates (259).
+2014-10-17 16:25:47  | INFO | * Comment :: 98018.
+2014-10-17 16:25:47  | INFO | * Status Changed from  to spam
+2014-10-18 01:51:09  | INFO | * * * * *
+2014-10-18 01:51:09  | INFO | * Blog :: excentral (1).
+2014-10-18 01:51:09  | INFO | * Post :: Fifty-nine Deceits in Fahrenheit 911, Dave Kopel, Independence Institute (61).
+2014-10-18 01:51:09  | INFO | * Comment :: 98019.
+2014-10-18 01:51:09  | INFO | * Status Changed from  to spam
+2014-10-18 02:00:53  | INFO | * * * * *
+2014-10-18 02:00:53  | INFO | * Blog :: excentral (1).
+2014-10-18 02:00:53  | INFO | * Post :: Fifty-nine Deceits in Fahrenheit 911, Dave Kopel, Independence Institute (61).
+2014-10-18 02:00:53  | INFO | * Comment :: 98020.
+2014-10-18 02:00:53  | INFO | * Status Changed from  to spam
+2014-10-18 23:08:58  | INFO | * * * * *
+2014-10-18 23:08:58  | INFO | * Blog :: excentral (1).
+2014-10-18 23:08:58  | INFO | * Post :: Moar RAID Win (368).
+2014-10-18 23:08:58  | INFO | * Comment :: 98021.
+2014-10-18 23:08:58  | INFO | * Status Changed from  to spam
+2014-10-19 00:08:46  | INFO | * * * * *
+2014-10-19 00:08:46  | INFO | * Blog :: excentral (1).
+2014-10-19 00:08:46  | INFO | * Post :: virt-install (282).
+2014-10-19 00:08:46  | INFO | * Comment :: 98022.
+2014-10-19 00:08:46  | INFO | * Status Changed from  to spam
+2014-10-19 04:12:19  | INFO | * * * * *
+2014-10-19 04:12:19  | INFO | * Blog :: excentral (1).
+2014-10-19 04:12:19  | INFO | * Post :: mdadm RAID 1 Migration (168).
+2014-10-19 04:12:19  | INFO | * Comment :: 98023.
+2014-10-19 04:12:19  | INFO | * Status Changed from  to spam
+2014-10-19 16:21:16  | INFO | * * * * *
+2014-10-19 16:21:16  | INFO | * Blog :: excentral (1).
+2014-10-19 16:21:16  | INFO | * Post :: Fifty-nine Deceits in Fahrenheit 911, Dave Kopel, Independence Institute (61).
+2014-10-19 16:21:16  | INFO | * Comment :: 98024.
+2014-10-19 16:21:16  | INFO | * Status Changed from  to spam
+2014-10-19 17:23:12  | INFO | * * * * *
+2014-10-19 17:23:12  | INFO | * Blog :: excentral (1).
+2014-10-19 17:23:12  | INFO | * Post :: Fifty-nine Deceits in Fahrenheit 911, Dave Kopel, Independence Institute (61).
+2014-10-19 17:23:12  | INFO | * Comment :: 98025.
+2014-10-19 17:23:12  | INFO | * Status Changed from  to spam
+2014-10-20 07:04:13  | INFO | * * * * *
+2014-10-20 07:04:13  | INFO | * Blog :: excentral (1).
+2014-10-20 07:04:13  | INFO | * Post :: mdadm RAID 1 Migration (168).
+2014-10-20 07:04:13  | INFO | * Comment :: 98026.
+2014-10-20 07:04:13  | INFO | * Status Changed from  to spam
+2014-10-20 07:20:48  | INFO | * * * * *
+2014-10-20 07:20:48  | INFO | * Blog :: excentral (1).
+2014-10-20 07:20:48  | INFO | * Post :: mdadm RAID 1 Migration (168).
+2014-10-20 07:20:48  | INFO | * Comment :: 98027.
+2014-10-20 07:20:48  | INFO | * Status Changed from  to spam
+2014-10-20 08:28:37  | INFO | * * * * *
+2014-10-20 08:28:37  | INFO | * Blog :: excentral (1).
+2014-10-20 08:28:37  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-20 08:28:37  | INFO | * Comment :: 98028.
+2014-10-20 08:28:37  | INFO | * Status Changed from  to spam
+2014-10-20 15:09:53  | INFO | * * * * *
+2014-10-20 15:09:53  | INFO | * Blog :: excentral (1).
+2014-10-20 15:09:53  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-20 15:09:53  | INFO | * Comment :: 98029.
+2014-10-20 15:09:53  | INFO | * Status Changed from  to spam
+2014-10-21 06:38:13  | INFO | * * * * *
+2014-10-21 06:38:13  | INFO | * Blog :: excentral (1).
+2014-10-21 06:38:13  | INFO | * Post :: sophists philosophy forums,psychology news,discussion &#8211; An Open Letter To The People Who Hacked My Website (64).
+2014-10-21 06:38:13  | INFO | * Comment :: 98030.
+2014-10-21 06:38:13  | INFO | * Status Changed from  to spam
+2014-10-21 10:35:54  | INFO | * * * * *
+2014-10-21 10:35:54  | INFO | * Blog :: excentral (1).
+2014-10-21 10:35:54  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-21 10:35:54  | INFO | * Comment :: 98031.
+2014-10-21 10:35:54  | INFO | * Status Changed from  to spam
+2014-10-21 11:46:49  | INFO | * * * * *
+2014-10-21 11:46:49  | INFO | * Blog :: excentral (1).
+2014-10-21 11:46:49  | INFO | * Post :: Android Repo Mirroring (435).
+2014-10-21 11:46:49  | INFO | * Comment :: 98032.
+2014-10-21 11:46:49  | INFO | * Status Changed from  to spam
+2014-10-22 03:29:46  | INFO | +++++++++
+2014-10-22 03:29:46  | INFO | +Log Test
+2014-10-22 03:29:46  | INFO | +++++++++
+2014-10-22 03:29:50  | INFO | * * * * *
+2014-10-22 03:29:50  | INFO | * Purged Everything!
+2014-10-22 03:29:50  | INFO | * * * * *
+2014-10-22 03:29:50  | INFO | +++++++++
+2014-10-22 03:29:50  | INFO | +Log Test
+2014-10-22 03:29:50  | INFO | +++++++++
+2014-10-22 03:29:50  | INFO | +++++++++
+2014-10-22 03:29:50  | INFO | +Log Test
+2014-10-22 03:29:50  | INFO | +++++++++

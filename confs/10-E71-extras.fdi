@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?> <!-- -*- SGML -*- -->
+<deviceinfo version="0.2">
+    <device>
+        <!-- Nokia E71 as a GPRS/EDGE modem (CDC ACM) -->
+        <match key="@info.parent:usb.product_id" int="0xab">
+            <match key="@info.parent:usb.interface.class" int="0x02">
+                <match key="@info.parent:usb.interface.subclass" int="0x02">
+                    <append key="info.capabilities" type="strlist">modem</append>
+                    <append key="modem.command_sets" type="strlist">V.250</append>
+                    <append key="modem.command_sets" type="strlist">GSM-07.07</append>
+                    <append key="modem.command_sets" type="strlist">GSM-07.05</append>
+                </match>
+            </match>
+        </match>
+        <!-- Nokia -->
+        <match key="@storage.originating_device:usb.vendor_id" int="0x421">
+          <!-- Nokia E71 -->
+          <match key="@storage.originating_device:usb.product_id" int="0x00aa">
+            <addset key="portable_audio_player.access_method.protocols" type="strlist">storage</addset>
+            <append key="portable_audio_player.output_formats" type="strlist">audio/aac</append>
+            <append key="portable_audio_player.output_formats" type="strlist">audio/x-ms-wma</append>
+            <append key="portable_audio_player.output_formats" type="strlist">audio/x-wav</append>
+            <append key="portable_audio_player.output_formats" type="strlist">audio/mpeg</append>
+            <append key="portable_audio_player.audio_folders" type="strlist">Music/</append>
+            <append key="portable_audio_player.playlist_format" type="strlist">audio/x-mpegurl</append>
+            <append key="portable_audio_player.playlist_path" type="strlist">Playlists/%File</append>
+          </match>
+	</match>
+    </device>
+</deviceinfo>
+
