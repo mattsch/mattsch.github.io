@@ -1,4 +1,5 @@
-remote_theme: "mmistakes/minimal-mistakes@4.9.0"
+#remote_theme: "mmistakes/minimal-mistakes@4.9.0"
+theme: minimal-mistakes-jekyll
 
 # Welcome to Jekyll!
 #
@@ -149,6 +150,8 @@ exclude:
   - tmp
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
+  - scripts
+  - .travis.yml
 keep_files:
   - .git
   - .svn
