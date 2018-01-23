@@ -11,4 +11,4 @@ categories:
 ---
 Now we get a true open groupware solution!
 
-<a href="http3A//www.advogato.org/person/alvaro/diary.html3Fstart3D49">Diary20for20alvaro</a>
+<a href="http://www.advogato.org/person/alvaro/diary.html">Diary for alvaro</a>

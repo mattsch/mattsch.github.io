@@ -18,10 +18,7 @@ ASUS M3A76-CM motherboard in AHCI mode.  My first issue was that all five drives
 were attached internally so access would require mucking about in the case to
 replace the three disks so I dug around and ended up purchasing a <a
 href="http://www.amazon.com/gp/product/B00009ILU1?ie=UTF8&tag=excentral-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B00009ILU1">Supermicro
-CSE-M35T-1B</a><img
-src="http://www.assoc-amazon.com/e/ir?t=excentral-20&l=as2&o=1&a=B00009ILU1"
-width="1" height="1" border="0" alt="" style="border:none !important; margin:0px
-!important;" /> so I would be able to swap the disks out easily.
+CSE-M35T-1B</a> so I would be able to swap the disks out easily.
 
 After getting the original drives shifted into the new rack, it was as easy as 1-2-3(ish) to replace the drives (with the filesystem live):
 

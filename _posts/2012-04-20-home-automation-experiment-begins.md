@@ -19,8 +19,13 @@ categories:
 ---
 Got a few bits on the way to start this little experiment in HA off:
 
-<a href="http://www.amazon.com/gp/product/B006YWLXQI/ref=as_li_ss_tl?ie=UTF8&tag=excentral-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B006YWLXQI">Mi Casa Verde Vera Lite Home Controller</a><img src="http://www.assoc-amazon.com/e/ir?t=excentral-20&l=as2&o=1&a=B006YWLXQI" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-<a href="http://www.amazon.com/gp/product/B0013V3C4Q/ref=as_li_ss_tl?ie=UTF8&tag=excentral-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0013V3C4Q">GE 45606 Z-Wave Technology 2-Way Dimmer Switch</a><img src="http://www.assoc-amazon.com/e/ir?t=excentral-20&l=as2&o=1&a=B0013V3C4Q" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
-<a href="http://www.amazon.com/gp/product/B0013V58HU/ref=as_li_ss_tl?ie=UTF8&tag=excentral-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0013V58HU">GE 45603 Z-Wave Technology Wireless Lighting Control Fluorescent Light & Appliance Module</a><img src="http://www.assoc-amazon.com/e/ir?t=excentral-20&l=as2&o=1&a=B0013V58HU" width="1" height="1" border="0" alt="" style="border:none !important; margin:0px !important;" />
+<a href="http://www.amazon.com/gp/product/B006YWLXQI/ref=as_li_ss_tl?ie=UTF8&tag=excentral-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B006YWLXQI">Mi Casa Verde Vera Lite Home Controller</a>
 
-For now I'm just looking to control the lamp in my den and overhead lighting in the adjacent kitchen. Nothing too exciting really, just enough to get my feet wet and be able to do a simple scene around watching movies. Hopefully amazon will get the stuff here tomorrow so I'll have the weekend to play... 
+<a href="http://www.amazon.com/gp/product/B0013V3C4Q/ref=as_li_ss_tl?ie=UTF8&tag=excentral-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0013V3C4Q">GE 45606 Z-Wave Technology 2-Way Dimmer Switch</a>
+
+<a href="http://www.amazon.com/gp/product/B0013V58HU/ref=as_li_ss_tl?ie=UTF8&tag=excentral-20&linkCode=as2&camp=1789&creative=390957&creativeASIN=B0013V58HU">GE 45603 Z-Wave Technology Wireless Lighting Control Fluorescent Light & Appliance Module</a>
+
+For now I'm just looking to control the lamp in my den and overhead lighting in
+the adjacent kitchen. Nothing too exciting really, just enough to get my feet
+wet and be able to do a simple scene around watching movies. Hopefully amazon
+will get the stuff here tomorrow so I'll have the weekend to play... 

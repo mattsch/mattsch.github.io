@@ -11,4 +11,4 @@ categories:
 ---
 Man... Target really is a hell of a store... Can't wait to get one here... ;)
 
-<a href="http3A//www.target.com/gp/detail.html/601-7733895-68041053Fasin3D0823916839">Target203A20Entertainment203A20Marijuana</a>
+<a href="http://www.target.com/gp/detail.html/601-7733895-68041053Fasin3D0823916839">Target Entertainment Marijuana</a>

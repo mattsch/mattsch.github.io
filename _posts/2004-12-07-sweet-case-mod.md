@@ -11,4 +11,4 @@ dsq_thread_id:
 categories:
   - General
 ---
-<a href="http3A//esco.mine.nu/2004/12/07/bootleg/">Jimbob, Now With 25% More Carbon Monoxide >> Bootleg</a>
+<a href="http://esco.mine.nu/2004/12/07/bootleg/">Jimbob, Now With 25% More Carbon Monoxide >> Bootleg</a>

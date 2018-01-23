@@ -39,7 +39,7 @@ restrict, rate shape, etc. to my heart's content.  Setup here was dead easy, the
 NIC I was using for my internal network supports 802.1Q so all I had to do was
 some point and click goodness to tag all three vlans (internal, WAN, wireless
 guest) into port four on the RT-16N:
-<a href="http://www.excentral.org/wp-content/uploads/2011/12/tomato_vlans.png"><img src="http://www.excentral.org/wp-content/uploads/2011/12/tomato_vlans-300x122.png" alt="" title="tomato_vlans" width="300" height="122" class="aligncenter size-medium wp-image-458" /></a>
+<a href="http://www.excentral.org/wp-content/uploads/2011/12/tomato_vlans.png"><img src="http://www.excentral.org/wp-content/uploads/2011/12/tomato_vlans-300x122.png" alt="vlans" title="tomato_vlans" width="300" height="122" class="aligncenter size-medium wp-image-458" /></a>
 
 I also set the WAN port type to 'Disabled' in the basic network config page so
 the RT-16N wouldn't try and get an external IP.

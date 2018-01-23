@@ -9,4 +9,4 @@ permalink: /archives/2005/07/08/a-message-for-bin-laden
 categories:
   - Life
 ---
-<a href="http://www.excentral.org/wp-content/uploads/151.jpg"><img src="http://www.excentral.org/wp-content/uploads/_151.jpg" width="300" height="291" alt="" title=""  /></a>
+~[binnull](http://www.excentral.org/wp-content/uploads/151.jpg)

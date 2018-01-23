@@ -9,9 +9,15 @@ permalink: /archives/2004/10/28/redhat-scammers
 categories:
   - General
 ---
-I know this is old news, but I did get this phishy email regarding the fileutils 'vulnerability' on RedHat.  Since this has come out there's been all sorts of doom-n-gloom articles with titles such as "<a href="http://www.newsforge.com/article.pl?sid=04/10/27/0351205">Red Hat email scam: Hard target or harbinger for Linux?</a>" but, as you can see below, this email looks nothing like any of the official errata reports from RH.  It also asks users to download a tar.gz file instead of simply connecting to RHN, and the email isn't signed with the RH gpg key.  If you fell for this, you don't need to be an admin... Sorry.
+I know this is old news, but I did get this phishy email regarding the fileutils
+'vulnerability' on RedHat.  Since this has come out there's been all sorts of
+doom-n-gloom articles with titles such as [Red Hat email scam: Hard target or
+harbinger for Linux?]" but, as you can see below, this email looks nothing like
+any of the official errata reports from RH.  It also asks users to download a
+tar.gz file instead of simply connecting to RHN, and the email isn't signed with
+the RH gpg key.  If you fell for this, you don't need to be an admin... Sorry.
 
-<img src="http://www.redhat.com/g/chrome/logo_rh_home.png" />
+![RH Logo]
 
 Original issue date: October 20, 2004
 Last revised: October 20, 2004
@@ -37,3 +43,6 @@ Thank you for your prompt attention to this serious matter,
 
 RedHat Security Team.
 <p class="style1">Copyright Â© 2004 Red Hat, Inc. All rights reserved.</p>
+
+[Red Hat email scam: Hard target or harbinger for Linux?]: http://www.newsforge.com/article.pl?sid=04/10/27/0351205
+[RH Logo]: http://www.redhat.com/g/chrome/logo_rh_home.png

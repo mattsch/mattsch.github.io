@@ -11,4 +11,4 @@ sent_to_laconica:
 categories:
   - Work
 ---
-<a href="http://www.excentral.org/wp-content/uploads/2010/03/03162010060.jpg"><img src="http://www.excentral.org/wp-content/uploads/2010/03/03162010060-300x225.jpg" alt="" title="zPacked!" width="300" height="225" class="alignnone size-medium wp-image-378" /></a>
+![zzzzz](http://www.excentral.org/wp-content/uploads/2010/03/03162010060.jpg "zPacked!")

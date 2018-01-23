@@ -11,9 +11,14 @@ sent_to_laconica:
 categories:
   - General
 ---
-Few updates to my <a href="/archives/2009/11/08/enabling-suspendresume-with-xbmc-in-ubuntu-9-10">previous post</a>:
-<ol>
-	<li>The format for the proc interface changed slightly (but significantly) from "disabled" to "*disabled", scripts must be updated accordingly.</li>
-	<li>One more step is required, details are in <a href="http://forum.xbmc.org/showpost.php?p=658293&postcount=168">this post</a>, but the short version is that you'll need to enable wakup for the device at the sysfs level <em>in addition to</em> proc.  I used the simple udev rule posted there and all works.</li>
-</ol>
+Few updates to my [previous post]:
 
+* The format for the proc interface changed slightly (but significantly) from
+  "disabled" to "*disabled", scripts must be updated accordingly.
+* One more step is required, details are in [this post], but the short version
+  is that you'll need to enable wakup for the device at the sysfs level *in
+  addition to* proc.  I used the simple udev rule posted there and all
+  works.
+
+[previous post]: {{ site.baseurl }}{% post_url 2009-11-08-enabling-suspendresume-with-xbmc-in-ubuntu-9-10 %}
+[this post]: http://forum.xbmc.org/showpost.php?p=658293&postcount=168
