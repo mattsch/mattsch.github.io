@@ -1,0 +1,640 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.9.0 by Michael Rose
+  Copyright 2013-2018 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE.txt
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin SEO -->
+
+
+
+
+
+
+
+
+
+<title>Playing with the Odroid-U2 - Excentral</title>
+
+
+
+
+<meta name="description" content="Picked up one of Hardkernel’s Odroid-U2 dev boxes, figured a quad-core arm box for less than $100 shipped was worth kicking around a bit.  After a week-ish of playing with it I thought it worth posting my findings with various OS variants.  For reference, I am using Class 10 microSDHC cards (anything less is painfully slow) and a wired connection while I wait on my USB wifi dongle to show up.">
+
+
+
+
+<meta name="author" content="Matthew Schick">
+
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="Excentral">
+<meta property="og:title" content="Playing with the Odroid-U2">
+
+
+  <link rel="canonical" href="https://www.excentral.org/archives/2013/05/11/playing-with-the-odroid-u2">
+  <meta property="og:url" content="https://www.excentral.org/archives/2013/05/11/playing-with-the-odroid-u2">
+
+
+
+  <meta property="og:description" content="Picked up one of Hardkernel’s Odroid-U2 dev boxes, figured a quad-core arm box for less than $100 shipped was worth kicking around a bit.  After a week-ish of playing with it I thought it worth posting my findings with various OS variants.  For reference, I am using Class 10 microSDHC cards (anything less is painfully slow) and a wired connection while I wait on my USB wifi dongle to show up.">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <meta name="twitter:site" content="@MattSchick">
+  <meta name="twitter:title" content="Playing with the Odroid-U2">
+  <meta name="twitter:description" content="Picked up one of Hardkernel’s Odroid-U2 dev boxes, figured a quad-core arm box for less than $100 shipped was worth kicking around a bit.  After a week-ish of playing with it I thought it worth posting my findings with various OS variants.  For reference, I am using Class 10 microSDHC cards (anything less is painfully slow) and a wired connection while I wait on my USB wifi dongle to show up.">
+  <meta name="twitter:url" content="https://www.excentral.org/archives/2013/05/11/playing-with-the-odroid-u2">
+
+  
+    <meta name="twitter:card" content="summary">
+    
+  
+
+  
+    <meta name="twitter:creator" content="@Matthew Schick">
+  
+
+
+
+  
+
+  
+
+
+
+
+
+  <meta property="og:type" content="article">
+  <meta property="article:published_time" content="2013-05-11T16:50:38-04:00">
+
+
+
+
+
+
+
+
+  <script type="application/ld+json">
+    {
+      "@context" : "http://schema.org",
+      "@type" : "Person",
+      "name" : "Matthew Schick",
+      "url" : "https://www.excentral.org",
+      "sameAs" : ["https://twitter.com/MattSchick"]
+    }
+  </script>
+
+
+
+
+
+
+
+<!-- end SEO -->
+
+
+<link href="https://www.excentral.org/feed.xml" type="application/atom+xml" rel="alternate" title="Excentral Feed">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="https://www.excentral.org/assets/css/main.css">
+
+<!--[if lte IE 9]>
+  <style>
+    /* old IE unsupported flexbox fixes */
+    .greedy-nav .site-title {
+      padding-right: 3em;
+    }
+    .greedy-nav button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 100%;
+    }
+  </style>
+<![endif]-->
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+  </head>
+
+  <body class="layout--single">
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    <div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        <a class="site-title" href="https://www.excentral.org/">Excentral</a>
+        <ul class="visible-links">
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://www.excentral.org/categories/" >Categories</a>
+            </li>
+          
+            
+            <li class="masthead__menu-item">
+              <a href="https://www.excentral.org/tags/" >Tags</a>
+            </li>
+          
+        </ul>
+        
+        <button class="search__toggle" type="button">
+          <svg class="icon" width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15.99 16">
+            <path d="M15.5,13.12L13.19,10.8a1.69,1.69,0,0,0-1.28-.55l-0.06-.06A6.5,6.5,0,0,0,5.77,0,6.5,6.5,0,0,0,2.46,11.59a6.47,6.47,0,0,0,7.74.26l0.05,0.05a1.65,1.65,0,0,0,.5,1.24l2.38,2.38A1.68,1.68,0,0,0,15.5,13.12ZM6.4,2A4.41,4.41,0,1,1,2,6.4,4.43,4.43,0,0,1,6.4,2Z" transform="translate(-.01)"></path>
+          </svg>
+        </button>
+        
+        <button class="greedy-nav__toggle" type="button">
+          <span class="visually-hidden">Toggle Menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+
+<div itemscope itemtype="http://schema.org/Person">
+
+  
+
+  <div class="author__content">
+    
+      <h3 class="author__name" itemprop="name">Matthew Schick</h3>
+    
+    
+      <p class="author__bio" itemprop="description">
+        Dad, geek, ginger.
+      </p>
+    
+  </div>
+
+  <div class="author__urls-wrapper">
+    <button class="btn btn--inverse">Follow</button>
+    <ul class="author__urls social-icons">
+      
+        <li itemprop="homeLocation" itemscope itemtype="http://schema.org/Place">
+          <i class="fas fa-fw fa-map-marker-alt" aria-hidden="true"></i> <span itemprop="name">North Carolina</span>
+        </li>
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://keybase.io/mattschick" itemprop="sameAs">
+            <i class="fas fa-fw fa-key" aria-hidden="true"></i> Keybase
+          </a>
+        </li>
+      
+
+      
+        <li>
+          <a href="https://twitter.com/MattSchick" itemprop="sameAs">
+            <i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+        <li>
+          <a href="https://github.com/mattsch" itemprop="sameAs">
+            <i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub
+          </a>
+        </li>
+      
+
+      
+        <li>
+          <a href="https://gitlab.com/mattsch" itemprop="sameAs">
+            <i class="fab fa-fw fa-gitlab" aria-hidden="true"></i> GitLab
+          </a>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      
+
+      <!--
+  <li>
+    <a href="http://link-to-whatever-social-network.com/user/" itemprop="sameAs">
+      <i class="fas fa-fw" aria-hidden="true"></i> Custom Social Profile Link
+    </a>
+  </li>
+-->
+    </ul>
+  </div>
+</div>
+
+  
+  </div>
+
+
+  <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
+    <meta itemprop="headline" content="Playing with the Odroid-U2">
+    <meta itemprop="description" content="Picked up one of Hardkernel’s Odroid-U2 dev boxes, figured a quad-core arm box for less than $100 shipped was worth kicking around a bit.  After a week-ish of playing with it I thought it worth posting my findings with various OS variants.  For reference, I am using Class 10 microSDHC cards (anything less is painfully slow) and a wired connection while I wait on my USB wifi dongle to show up.">
+    <meta itemprop="datePublished" content="May 11, 2013">
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 class="page__title" itemprop="headline">Playing with the Odroid-U2
+</h1>
+          
+            <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  4 minute read
+</p>
+          
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p>Picked up one of Hardkernel’s <a href="http://www.hardkernel.com/renewal_2011/products/prdt_info.php" title="Odroid-U2" target="_blank">Odroid-U2</a> dev boxes, figured a quad-core arm box for less than $100 shipped was worth kicking around a bit.  After a week-ish of playing with it I thought it worth posting my findings with various OS variants.  For reference, I am using <a href="http://www.amazon.com/gp/product/B0058GH4U0/ref=as_li_ss_tl?ie=UTF8&amp;camp=1789&amp;creative=390957&amp;creativeASIN=B0058GH4U0&amp;linkCode=as2&amp;tag=excentral-20" target="_blank">Class 10 microSDHC</a> cards (anything less is painfully slow) and a wired connection while I wait on my USB wifi dongle to show up.</p>
+
+<p>I don’t really have a specific use case for the box, but the main categories I’m poking at are media playback (using <a href="http://forum.xbmc.org/showthread.php?tid=152005" title="XBMC libstagefright builds">XBMC</a>, Plex, Netflix), gaming, and general web/app usage.  One big downside for general usage across all the Android builds is that the user interface is only moderately okay if you’re not using a touch screen.  Swiping through pages is great using fingers, not so much via a normal mouse…</p>
+
+<p><strong>Stock Android</strong>
+The first thing I tried was the latest official Android build (dated 25th April, 2013).  It’s using version 4.1.2_r1 as it’s base with some custom bits as follows:</p>
+<ul>
+	<li>Right mouse click as the back button</li>
+	<li>Power button on the navigation bar</li>
+	<li>No status bar</li>
+	<li>Mounts SD card as internal storage</li>
+	<li>Working(-ish) USB bluetooth support</li>
+</ul>
+<p>Overall it’s a very solid build, however trying to use Netflix or Plex to view videos resulted in a black screen with audio.  According to the official forums, it’s a known issue with their 4.1 builds and their advice is to revert back to the 4.0.* based builds instead.  I didn’t try going that route since I already had my eye on the CM nightlies.  Running XBMC was generally okay here but the UI lagged and there were some visual glitches during playback (mostly menu overlays).  Although my cheap BT dongle was seen and I was able to pair my phone with the Odroid, I couldn’t ever get my Moga gaming controller to pair properly so I couldn’t do any real game testing.  I’m assuming this was more to do with the dongle and not the build since I saw folks on the forums able to use BT controllers without issues.</p>
+
+<p><strong>CyanogenMod</strong>
+My next try with Android was <a href="http://www.cyanogenmod.org/" title="CyanogenMod">CyanogenMod</a> <a href="http://get.cm/?device=odroidu2" title="Latest Builds">nightlies</a>.  It’s based on version 4.2.2 and is overall a better option (IMO) than stock.  Media playback Just Works, had no issues with Netflix, Plex was able to do playback of some high bitrate 1080p h264 streams without any glitches.  XBMC here has been almost flawless with only minor hiccups during playback.  This is certainly the faster of the two Android builds, and the kernel allows overclocking to 2Ghz to give it a boost if you’re so inclined (I wasn’t).  However, there are a few gotchas involved through the install and usage.</p>
+
+<p>First, the procedures outlined on the <a href="http://wiki.cyanogenmod.org/w/Install_CM_for_odroidu2">CM wiki</a> to install weren’t entirely complete.  After installing the initial image as directed I was unable to reboot into recovery mode.  Took a bit of digging, but I grabbed the odroidu2-recovery.zip file they list for the windows install instructions and unzip’d to the root of the vfat partition before rebooting.  This seems to only be needed for the initial install, subsequent reboot-to-recovery attempts from an installed CM nightly worked just like it should.</p>
+
+<p>The next big gotcha was with the way CM mounts the sd card.  It’s fstab file is setup to treat the eMMC card as the internal sd and the micro sd as external which is great if you’re using eMMC, not so much if you aren’t.  Fixing it requires editing /system/etc/vold.fstab and swapping the entries, I’ve got a copy <a href="http://www.excentral.org/files/vold.fstab">here</a> you can just copy over to fix things. You’ll have to do that after each update since the file is replaced during the flash.</p>
+
+<p>The last thing worth mentioning isn’t really a problem but, since the CM build treats this as a tablet and stays close to ASOP, you get the normal tablet interface.  So you’ll need to grab your own power widgets (I use secure settings) and deal with the normal status navigation bar.  For the latter I just set up a tasker profile to enable the “Expanded Desktop” option (via secure settings) when XBMC is running to get true full screen.</p>
+
+<p><strong>Linux</strong>
+For this I used the <a href="http://forum.odroid.com/viewtopic.php?f=8&amp;t=1102" title="Ubuntu Fully Loaded">Ubuntu 12.11 Fully Loaded</a> community image from the odroid forums.  It’s a great image with several full desktop environments to chose from, very fast and usable.  Using it out of the box on a TV screen requires tweaking DPI or font sizes to be able to read anything, but once that’s done it’s pretty straightforward.  The only thing really worth mentioning as a downside is viewing YouTube videos in the Chromium browser is painful since there’s no hardware acceleration of the webm codec.  Using Firefox with the provided greasemonkey scripts will allow you to chose the h264 versions of the videos which do work at up to 1080p res without issue.</p>
+
+<p>I think you could use this as a desktop replacement as long as you kept your home directory on either a secondary device (USB drive?) or NFS volume, but flashing wipes EVERYTHING so you wouldn’t want to keep a local home directory.  The image also includes various emulators and games, but I haven’t had a chance to try those so I can’t speak to how those worked.</p>
+
+<p>In summary, this little beast draws almost no power and has enough horsepower to do quite a bit.  I’m looking forward to support maturing in Android and Linux to take full advantage of the hw, but the potential for usage here is huge.</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+  
+
+
+  
+  
+  
+
+  <p class="page__taxonomy">
+    <strong><i class="fas fa-fw fa-folder-open" aria-hidden="true"></i> Categories: </strong>
+    <span itemprop="keywords">
+    
+      
+      
+      <a href="https://www.excentral.org/categories/projects" class="page__taxonomy-item" rel="tag">Projects</a>
+    
+    </span>
+  </p>
+
+
+        
+          <p class="page__date"><strong><i class="fas fa-fw fa-calendar-alt" aria-hidden="true"></i> Updated:</strong> <time datetime="2013-05-11T16:50:38-04:00">May 11, 2013</time></p>
+        
+      </footer>
+
+      <section class="page__share">
+  
+    <h4 class="page__share-title">Share on</h4>
+  
+
+  <a href="https://twitter.com/intent/tweet?via=MattSchick&text=Playing+with+the+Odroid-U2%20https%3A%2F%2Fwww.excentral.org%2Farchives%2F2013%2F05%2F11%2Fplaying-with-the-odroid-u2" class="btn btn--twitter" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Twitter"><i class="fab fa-fw fa-twitter" aria-hidden="true"></i><span> Twitter</span></a>
+
+  <a href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fwww.excentral.org%2Farchives%2F2013%2F05%2F11%2Fplaying-with-the-odroid-u2" class="btn btn--facebook" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Facebook"><i class="fab fa-fw fa-facebook" aria-hidden="true"></i><span> Facebook</span></a>
+
+  <a href="https://plus.google.com/share?url=https%3A%2F%2Fwww.excentral.org%2Farchives%2F2013%2F05%2F11%2Fplaying-with-the-odroid-u2" class="btn btn--google-plus" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on Google Plus"><i class="fab fa-fw fa-google-plus" aria-hidden="true"></i><span> Google+</span></a>
+
+  <a href="https://www.linkedin.com/shareArticle?mini=true&url=https%3A%2F%2Fwww.excentral.org%2Farchives%2F2013%2F05%2F11%2Fplaying-with-the-odroid-u2" class="btn btn--linkedin" onclick="window.open(this.href, 'window', 'left=20,top=20,width=500,height=500,toolbar=1,resizable=0'); return false;" title="Share on LinkedIn"><i class="fab fa-fw fa-linkedin" aria-hidden="true"></i><span> LinkedIn</span></a>
+</section>
+
+
+      
+  <nav class="pagination">
+    
+      <a href="https://www.excentral.org/archives/2012/11/27/straight-talk-debacle" class="pagination--pager" title="Straight Talk Debacle
+">Previous</a>
+    
+    
+      <a href="https://www.excentral.org/archives/2013/07/05/wi-fi-3d-printer-prep" class="pagination--pager" title="Wi-Fi 3D Printer Prep
+">Next</a>
+    
+  </nav>
+
+    </div>
+
+    
+  </article>
+
+  
+  
+    <div class="page__related">
+      <h4 class="page__related-title">You May Also Enjoy</h4>
+      <div class="grid__wrapper">
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="https://www.excentral.org/archives/2014/10/21/rss-update" rel="permalink">RSS Update
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">I’ve been using FeedBurner for so long I’d forgotten about it, not unlike Google who seems to be letting it die a slow death.  I’ve disabled my redirects and...</p>
+  </article>
+</div>
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="https://www.excentral.org/archives/2014/04/16/ansible-variables" rel="permalink">Ansible variables
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Been doing some abstraction refactoring for work and ran into a situation where
+I had a task that used the command module in a loop and I needed to be able t...</p>
+  </article>
+</div>
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="https://www.excentral.org/archives/2014/02/19/mendel90-marlin" rel="permalink">Mendel90 Marlin
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  less than 1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">For those looking to run a recent version of Marlin on a Mendel90 from nophead, I track upstream in my own branches on GitHub.  There are two versions; one f...</p>
+  </article>
+</div>
+        
+          
+
+
+
+<div class="grid__item">
+  <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    
+    <h2 class="archive__item-title" itemprop="headline">
+      
+        <a href="https://www.excentral.org/archives/2014/02/07/3d-printing-tips" rel="permalink">3D Printing Tips
+</a>
+      
+    </h2>
+    
+      <p class="page__meta"><i class="far fa-clock" aria-hidden="true"></i> 
+
+
+
+
+  1 minute read
+</p>
+    
+    <p class="archive__item-excerpt" itemprop="description">Just a few things I’ve learned over the past few weeks:
+
+	Travel rate matters - On both my Prusa I3 and Mendel90 I had the non-print travel rate ratched up t...</p>
+  </article>
+</div>
+        
+      </div>
+    </div>
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap">
+  <input type="text" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  <div id="results" class="results"></div>
+</div>
+      </div>
+    
+
+    <div class="page__footer">
+      <footer>
+        <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- Jekyll footer -->
+<div align="center" style="margin: 1em 0;">
+<ins class="adsbygoogle"
+     style="display:block"
+     data-ad-client="ca-pub-5102983321402120"
+     data-ad-slot="8378251347"
+     data-ad-format="auto"></ins>
+</div>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+      <li><strong>Follow:</strong></li>
+    
+    
+      <li><a href="https://twitter.com/MattSchick"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+    
+    
+    
+      <li><a href="https://github.com/mattsch"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+    
+    
+      <li><a href="https://gitlab.com/mattsch"><i class="fab fa-fw fa-gitlab" aria-hidden="true"></i> Gitlab</a></li>
+    
+    
+    <li><a href="https://www.excentral.org/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2018 excentral. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="https://www.excentral.org/assets/js/main.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.2/js/all.js"></script>
+
+
+
+  
+  
+  <script defer src="https://www.excentral.org/assets/js/lunr/lunr.min.js"></script>
+  <script defer src="https://www.excentral.org/assets/js/lunr/lunr-store.js"></script>
+  <script defer src="https://www.excentral.org/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+    
+  <script>
+    var disqus_config = function () {
+      this.page.url = "https://www.excentral.org/archives/2013/05/11/playing-with-the-odroid-u2";  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = "/archives/2013/05/11/playing-with-the-odroid-u2"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+    };
+    (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = 'https://excentral.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+    })();
+  </script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
+  
+
+
+
+  </body>
+</html>
